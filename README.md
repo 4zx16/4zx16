@@ -1,5 +1,3 @@
-# README.md
-
 # GitHub Posting
 
 On this GitHub Page, you may find Lua, JS, or more random programming languages,
