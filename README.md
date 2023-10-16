@@ -9,7 +9,7 @@
         </p>
         <h2>Interests</h2>
         <p>
-            My interests revolve around everything related to programming and open-source code.
+            <a class"button" href = "https://linkr.it/4zx16">About Me</a>
         </p>
     </div>
 </body>
