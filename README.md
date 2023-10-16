@@ -5,9 +5,8 @@
         </p>
         <h2>Discord</h2>
         <p>
-            I also own the 🩸 Blood Gang, Inc Discord server. We're not officially partnered with "🌊 Water Gang, Inc."
+            I also own the <a class="discord-button" href = "https://discord.gg/zvH3HsVYHf">🩸 Blood Gang, Inc (BGI)</a>. We're not officially partnered with "🌊 Water Gang, Inc."
         </p>
-        <a class="discord-button" href="https://discord.gg/zvH3HsVYHf">Join our Discord</a>
         <h2>Interests</h2>
         <p>
             My interests revolve around everything related to programming and open-source code.
