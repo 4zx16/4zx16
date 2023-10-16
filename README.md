@@ -1,7 +1,7 @@
  <div class="container">
         <h1>GitHub Posting</h1>
         <p>
-            On this GitHub Page, you may find Lua, JS, or more random programming languages, depending on what I want to share.
+            You may find Lua, JS, or more random programming languages, depending on what I want to share.
         </p>
         <h2>Discord</h2>
         <p>
