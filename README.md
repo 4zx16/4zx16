@@ -5,7 +5,7 @@
         </p>
         <h2>Discord</h2>
         <p>
-            I also own <a class="button" href = "https://github.com/Blood-Gang-Inc">🩸 Blood Gang, Inc (BGI)</a>. We're not officially partnered with <a class="button" href  = "https://github.com/Water-Gang-Inc">"🌊 Water Gang, Inc."</a>
+            I also own <a class="button" href = "https://github.com/Blood-Gang-Inc">🩸 Blood Gang™️ (BGI)</a>. We're not officially partnered with <a class="button" href  = "https://github.com/Water-Gang-Inc">🌊 Water Gang™️."</a>
         </p>
         <h2>Interests</h2>
         <p>
