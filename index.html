@@ -6,64 +6,61 @@
     <title>About Me</title>
     <style>
         body {
+            background-color: #f0f0f0;
             font-family: Arial, sans-serif;
-            background-color: #f1f1f1;
-            margin: 0;
-            padding: 0;
         }
-
         #header {
             background-color: #333;
             color: white;
             text-align: center;
             padding: 20px;
         }
-
         #container {
-            background-color: white;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            border-radius: 10px;
             margin: 20px;
             padding: 20px;
-            border: 1px solid #ddd;
-            border-radius: 5px;
         }
-
-        #about-me-link {
-            font-size: 20px;
+        #email-note {
+            color: #777;
         }
-
         #interests {
             margin-top: 20px;
         }
-
-        .social-media {
-            margin-top: 10px;
+        ul {
+            list-style-type: disc;
+            margin-left: 20px;
         }
-
-        #note {
-            font-size: 12px;
-            color: #888;
+        #social-media {
+            margin-top: 20px;
+        }
+        #social-media a {
+            text-decoration: none;
+            margin: 10px;
         }
     </style>
 </head>
 <body>
     <div id="header">
         <h1>About Me</h1>
+        <p>I create stuff for no reason</p>
     </div>
     <div id="container">
-        <p id="about-me-link">
-            You can find more about me on my <a href="https://linkr.it/4zx16" target="_blank">About Me Page</a>.
-        </p>
-        <p id="note">
-            Note: I will not reply to business emails. Please be aware that one of the support agents may reply to your request.
-        </p>
+        <h2>About Me</h2>
+        <p>Welcome to my About Me page! I create various projects and enjoy working on different things just for the fun of it.</p>
+        <p id="email-note">Business Email: gblood016@gmail.com <i>(I will not reply, one of the support agents may reply to your request.)</i></p>
+        <p>Find out more about me on my <a href="https://linkr.it/4zx16" target="_blank">About Me page</a>.</p>
+
         <div id="interests">
             <h2>Interests</h2>
             <ul>
                 <li>UI Design</li>
                 <li>GFX (sometimes)</li>
-                <li>Programming (HTML, Lua, JavaScript, etc)</li>
+                <li>Programming (HTML, Lua, JavaScript, etc.)</li>
             </ul>
         </div>
+
         <div id="projects">
             <h2>Projects</h2>
             <p>Owner of many projects, including:</p>
@@ -74,13 +71,12 @@
                 <li>Rank Modules</li>
             </ul>
         </div>
-        <div class="social-media">
+
+        <div id="social-media">
             <h2>Social Media</h2>
-            <ul>
-                <li><a href="https://twitch.tv/4zx16" target="_blank">Twitch</a></li>
-                <li><a href="https://youtube.com/@4zx16" target="_blank">YouTube</a></li>
-                <li><a href="https://twitter.com/4zx16" target="_blank">Twitter</a></li>
-            </ul>
+            <a href="https://twitch.tv/4zx16" style="color: purple;" target="_blank">Twitch</a>
+            <a href="https://youtube.com/@4zx16" style="color: red;" target="_blank">YouTube</a>
+            <a href="https://twitter.com/4zx16" style="color: blue;" target="_blank">Twitter</a>
         </div>
     </div>
 </body>
