@@ -1,5 +1,5 @@
  <div class="container">
-        <h1>About Me/h1>
+        <h1>About Me</h1>
         <p>
             I create stuff for no reason 🙄
         </p>
