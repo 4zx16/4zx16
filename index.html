@@ -7,53 +7,80 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f0f0f0;
+            background-color: #f1f1f1;
+            margin: 0;
+            padding: 0;
         }
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
+
+        #header {
+            background-color: #333;
+            color: white;
+            text-align: center;
             padding: 20px;
-            background-color: #ffffff;
-            border: 1px solid #ccc;
+        }
+
+        #container {
+            background-color: white;
+            margin: 20px;
+            padding: 20px;
+            border: 1px solid #ddd;
             border-radius: 5px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
-        h1 {
-            color: #333;
+
+        #about-me-link {
+            font-size: 20px;
         }
-        p {
-            color: #666;
+
+        #interests {
+            margin-top: 20px;
         }
-        .email-note {
-            color: #999;
+
+        .social-media {
+            margin-top: 10px;
+        }
+
+        #note {
             font-size: 12px;
-        }
-        .interests {
-            margin-top: 20px;
-        }
-        .projects {
-            margin-top: 20px;
+            color: #888;
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <h1>About Me - 4zx16</h1>
-        <p>I create stuff for no reason.</p>
-        <a href="https://linkr.it/4zx16">Learn more about me</a>
-        <p class="email-note">Business Email: gblood016@gmail.com (I will not reply, one of the support agents may reply to your request)</p>
-        <div class="interests">
+    <div id="header">
+        <h1>About Me</h1>
+    </div>
+    <div id="container">
+        <p id="about-me-link">
+            You can find more about me on my <a href="https://linkr.it/4zx16" target="_blank">About Me Page</a>.
+        </p>
+        <p id="note">
+            Note: I will not reply to business emails. Please be aware that one of the support agents may reply to your request.
+        </p>
+        <div id="interests">
             <h2>Interests</h2>
             <ul>
                 <li>UI Design</li>
                 <li>GFX (sometimes)</li>
-                <li>Programming: HTML, Lua, JavaScript, etc</li>
+                <li>Programming (HTML, Lua, JavaScript, etc)</li>
             </ul>
         </div>
-        <div class="projects">
+        <div id="projects">
             <h2>Projects</h2>
-            <p>Owner of many projects (such as Boomboxes, RB, Saz, Rank Modules.)</p>
-            <a href="https://github.com/Blood-Gang-Inc">View My Projects</a>
+            <p>Owner of many projects, including:</p>
+            <ul>
+                <li>Boomboxes</li>
+                <li>RB (Role-Playing Game)</li>
+                <li>Saz</li>
+                <li>Rank Modules</li>
+            </ul>
+        </div>
+        <div class="social-media">
+            <h2>Social Media</h2>
+            <ul>
+                <li><a href="https://twitch.tv/4zx16" target="_blank">Twitch</a></li>
+                <li><a href="https://youtube.com/@4zx16" target="_blank">YouTube</a></li>
+                <li><a href="https://twitter.com/4zx16" target="_blank">Twitter</a></li>
+            </ul>
         </div>
     </div>
 </body>
